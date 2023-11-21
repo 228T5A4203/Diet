@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>login</tittle>
+    </head>
+    <body>
+        <h2>Please signup here!!</h2>
+        <table border="2">
+        <form action="listtags.html" method="get">
+           <tr>
+            <td><label>Enter Username:</label></td>
+           <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+           <td> <label>Enter Password:</label></td>
+           <td> <input type="password"></td>
+            </tr>
+            <tr>
+           <td> <label>confirm password:</label></td>
+            <td><input type="text"></td>
+            </tr>
+            <tr>
+            <td><label>Select Gender:</label></td>
+            <input type="radio" id="Male">
+            <label>Male</label>
+            <input type="radio" id="Female">
+            <label>Female</label>
+            <br></br>
+            <label>Mobile number:</label>
+            <input type="text">
+            <br></br>
+            <label>Enter DOB:</label>
+            <input type="date">
+            <br></br>
+            <label>Enter Address:</label>
+            <input type="address">
+            <br></br>
+            <label for="Select">Select Qualification:</label>
+            <select name="select" id="select">
+                <input type="text">
+            </select>
+            <br></br>
+            <label for="select">Choose your skills </label>
+            <select name="select" multiple>
+                <option value="java">java</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+            <br></br>
+            <label>Prefered skills:</label>
+            <input type="radio" id="DayShift">
+            <label>DayShift</label>
+            <input type="radio" id="NightShift">
+            <label>NightShift</label>
+            <input type="radio" id="DayShift/NightShift">
+            <label>DayShift/NightShift</label>
+            <br></br>
+            <label>Upload Your Resume:</label>
+            <input type="file" value="Choose File">
+            <label>No file choosen</label>
+            <br></br>
+            <input type="submit" value="Register">
+            <input type="submit" value="Reset">
+
+        </form>
+        </table>
+    </body>
+</html>

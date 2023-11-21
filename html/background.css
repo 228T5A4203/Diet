@@ -1,0 +1,13 @@
+h2 {
+    background-color: blue;
+}
+
+body {
+    background-color:violet;
+    background-image: url("file:///C:/Users/User/Downloads/virat.webp");
+    background-repeat: no-repeat;
+    background-position: right;
+    background: gray
+    url("file:///C:/Users/User/Downloads/virat.webp")
+    no-repeat;
+}

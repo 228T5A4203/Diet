@@ -1,0 +1,8 @@
+p {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: rebeccapurple;
+    border:dashed 5px red;
+    
+}
+/* styles with border properties */
